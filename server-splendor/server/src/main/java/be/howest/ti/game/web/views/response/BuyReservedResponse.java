@@ -1,0 +1,31 @@
+package be.howest.ti.game.web.views.response;
+
+import be.howest.ti.game.logic.DevelopmentCard;
+import be.howest.ti.game.logic.Purse;
+
+import java.util.Set;
+
+public class BuyReservedResponse extends AbstractResponseWithHiddenStatus{
+    private Set<DevelopmentCard> cards;
+    private Purse purse;
+    private Set<DevelopmentCard> reserve;
+
+    public BuyReservedResponse(Set<DevelopmentCard> cards, Purse purse, Set<DevelopmentCard> reserve) {
+        super(200);
+        this.cards = cards;
+        this.purse = purse;
+        this.reserve = reserve;
+    }
+
+    public Set<DevelopmentCard> getCards() {
+        return cards;
+    }
+
+    public Purse getPurse() {
+        return purse;
+    }
+
+    public Set<DevelopmentCard> getReserve() {
+        return reserve;
+    }
+}

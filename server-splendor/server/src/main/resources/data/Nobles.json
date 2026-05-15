@@ -1,0 +1,89 @@
+{
+  "nobles": [
+    {
+      "name": "Zeus",
+      "cost": {
+        "E": 4,
+        "R": 4
+      },
+      "points": 3
+    },
+    {
+      "name": "Poseidon",
+      "cost": {
+        "S": 4,
+        "E": 4
+      },
+      "points": 3
+    },
+    {
+      "name": "Hades",
+      "cost": {
+        "C": 4,
+        "S": 4
+      },
+      "points": 3
+    },
+    {
+      "name": "Demeter",
+      "cost": {
+        "C": 4,
+        "O": 4
+      },
+      "points": 3
+    },
+    {
+      "name": "Athena",
+      "cost": {
+        "R": 4,
+        "O": 4
+      },
+      "points": 3
+    },
+    {
+      "name": "Aphrodite",
+      "cost": {
+        "C": 3,
+        "S": 3,
+        "O": 3
+      },
+      "points": 3
+    },
+    {
+      "name": "Hephaestus",
+      "cost": {
+        "E": 3,
+        "R": 3,
+        "O": 3
+      },
+      "points": 3
+    },
+    {
+      "name": "Artemis",
+      "cost": {
+        "C": 3,
+        "R": 3,
+        "O": 3
+      },
+      "points": 3
+    },
+    {
+      "name": "Hermes",
+      "cost": {
+        "S": 3,
+        "E": 3,
+        "R": 3
+      },
+      "points": 3
+    },
+    {
+      "name": "Apollo",
+      "cost": {
+        "C": 3,
+        "S": 3,
+        "E": 3
+      },
+      "points": 3
+    }
+  ]
+}

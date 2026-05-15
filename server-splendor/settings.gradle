@@ -1,0 +1,5 @@
+rootProject.name = 'SplendorServer'
+
+
+include 'server', 'generic-game-server', 'vertx-web-bearer'
+

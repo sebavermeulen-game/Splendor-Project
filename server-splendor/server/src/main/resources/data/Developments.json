@@ -1,0 +1,1035 @@
+{
+  "developments": {
+    "tier1": [
+      {
+        "name": "Diamond Mine",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 3,
+          "S": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Diamond Vein",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 2,
+          "O": 2
+        }
+      },
+      {
+        "name": "Shimmering Quarry",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 3
+        }
+      },
+      {
+        "name": "Brilliant Mine",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "R": 2,
+          "O": 1
+        }
+      },
+      {
+        "name": "Radiant Crystal Cave",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 2,
+          "E": 2,
+          "O": 1
+        }
+      },
+      {
+        "name": "Facet Workshop",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 1,
+          "E": 2,
+          "R": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Glistening Vault",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 1,
+          "E": 1,
+          "R": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Sparkling Chamber",
+        "level": 1,
+        "gem_type": "C",
+        "image_id": 1,
+        "points": 1,
+        "cost": {
+          "E": 4
+        }
+      },
+      {
+        "name": "Emerald Mine",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 2,
+          "R": 2
+        }
+      },
+      {
+        "name": "Emerald Vein",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "R": 3
+        }
+      },
+      {
+        "name": "Verdant Quarry",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 3,
+          "E": 1
+        }
+      },
+      {
+        "name": "Lush Gem Mine",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 1,
+          "R": 1,
+          "O": 2
+        }
+      },
+      {
+        "name": "Green Crystal Cave",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "S": 1
+        }
+      },
+      {
+        "name": "Forest Workshop",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 1,
+          "R": 2,
+          "O": 2
+        }
+      },
+      {
+        "name": "Emerald Vault",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 1,
+          "R": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Verdant Chamber",
+        "level": 1,
+        "gem_type": "E",
+        "image_id": 1,
+        "points": 1,
+        "cost": {
+          "O": 4
+        }
+      },
+      {
+        "name": "Onyx Mine",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "S": 2,
+          "R": 1
+        }
+      },
+      {
+        "name": "Onyx Vein",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "E": 1,
+          "R": 3,
+          "O": 1
+        }
+      },
+      {
+        "name": "Shadowed Quarry",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "E": 3
+        }
+      },
+      {
+        "name": "Noir Crystal Mine",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 2,
+          "E": 1,
+          "R": 1
+        }
+      },
+      {
+        "name": "Dark Gem Cave",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 1,
+          "E": 1,
+          "R": 1
+        }
+      },
+      {
+        "name": "Obsidian Workshop",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "E": 2
+        }
+      },
+      {
+        "name": "Midnight Vault",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "E": 2,
+          "R": 1
+        }
+      },
+      {
+        "name": "Gloomy Chamber",
+        "level": 1,
+        "gem_type": "O",
+        "image_id": 1,
+        "points": 1,
+        "cost": {
+          "S": 4
+        }
+      },
+      {
+        "name": "Ruby Mine",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "E": 1,
+          "O": 2
+        }
+      },
+      {
+        "name": "Ruby Vein",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "R": 1,
+          "O": 3
+        }
+      },
+      {
+        "name": "Crimson Quarry",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 2,
+          "E": 1
+        }
+      },
+      {
+        "name": "Scarlet Gem Mine",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "R": 2
+        }
+      },
+      {
+        "name": "Red Crystal Cave",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 2,
+          "S": 1,
+          "E": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Blazing Workshop",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "S": 1,
+          "E": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Inferno Vault",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 3
+        }
+      },
+      {
+        "name": "Fiery Chamber",
+        "level": 1,
+        "gem_type": "R",
+        "image_id": 1,
+        "points": 1,
+        "cost": {
+          "C": 4
+        }
+      },
+      {
+        "name": "Sapphire Mine",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "O": 2
+        }
+      },
+      {
+        "name": "Sapphire Vein",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "E": 1,
+          "R": 2,
+          "O": 1
+        }
+      },
+      {
+        "name": "Azure Quarry",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "E": 1,
+          "R": 1,
+          "O": 1
+        }
+      },
+      {
+        "name": "Blue Gem Mine",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "C": 1,
+          "E": 2,
+          "R": 2
+        }
+      },
+      {
+        "name": "Blue Crystal Cave",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "S": 1,
+          "E": 3,
+          "R": 1
+        }
+      },
+      {
+        "name": "Azure Workshop",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "E": 2,
+          "O": 2
+        }
+      },
+      {
+        "name": "Luminous Vault",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 0,
+        "cost": {
+          "O": 3
+        }
+      },
+      {
+        "name": "Celestial Chamber",
+        "level": 1,
+        "gem_type": "S",
+        "image_id": 1,
+        "points": 1,
+        "cost": {
+          "R": 4
+        }
+      }
+    ],
+    "tier2": [
+      {
+        "name": "Polished Vault",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 2,
+        "points": 1,
+        "cost": {
+          "E": 3,
+          "R": 2,
+          "O": 2
+        }
+      },
+      {
+        "name": "Diamond Refinery",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 2,
+        "points": 1,
+        "cost": {
+          "C": 2,
+          "S": 3,
+          "R": 3
+        }
+      },
+      {
+        "name": "Radiant Workshop",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "E": 1,
+          "R": 4,
+          "O": 2
+        }
+      },
+      {
+        "name": "Gleaming Estate",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "R": 5
+        }
+      },
+      {
+        "name": "Sparkling Guild",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "R": 5,
+          "O": 3
+        }
+      },
+      {
+        "name": "Brilliant Collection",
+        "level": 2,
+        "gem_type": "C",
+        "image_id": 3,
+        "points": 3,
+        "cost": {
+          "C": 6
+        }
+      },
+      {
+        "name": "Refined Gem Vault",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "C": 3,
+          "E": 2,
+          "R": 3
+        }
+      },
+      {
+        "name": "Emerald Refinery",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "C": 2,
+          "S": 3,
+          "O": 2
+        }
+      },
+      {
+        "name": "Lush Workshop",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "E": 5
+        }
+      },
+      {
+        "name": "Green Estate",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "S": 5,
+          "E": 3
+        }
+      },
+      {
+        "name": "Verdant Guild",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "C": 4,
+          "S": 2,
+          "O": 1
+        }
+      },
+      {
+        "name": "Emerald Collection",
+        "level": 2,
+        "gem_type": "E",
+        "image_id": 2,
+        "points": 3,
+        "cost": {
+          "E": 6
+        }
+      },
+      {
+        "name": "Obsidian Vault",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 2,
+        "points": 1,
+        "cost": {
+          "C": 3,
+          "S": 2,
+          "E": 2
+        }
+      },
+      {
+        "name": "Onyx Refinery",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 2,
+        "points": 1,
+        "cost": {
+          "C": 3,
+          "E": 3,
+          "O": 2
+        }
+      },
+      {
+        "name": "Dark Refinery",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "S": 1,
+          "E": 4,
+          "R": 2
+        }
+      },
+      {
+        "name": "Noir Estate",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "C": 5
+        }
+      },
+      {
+        "name": "Obsidian Guild",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "E": 5,
+          "R": 3
+        }
+      },
+      {
+        "name": "Onyx Collection",
+        "level": 2,
+        "gem_type": "O",
+        "image_id": 3,
+        "points": 3,
+        "cost": {
+          "O": 6
+        }
+      },
+      {
+        "name": "Radiant Vault",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "S": 3,
+          "R": 2,
+          "O": 3
+        }
+      },
+      {
+        "name": "Ruby Refinery",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "C": 2,
+          "R": 2,
+          "O": 3
+        }
+      },
+      {
+        "name": "Blazing Refinery",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "C": 1,
+          "S": 4,
+          "E": 2
+        }
+      },
+      {
+        "name": "Crimson Estate",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "C": 3,
+          "O": 5
+        }
+      },
+      {
+        "name": "Ruby Guild",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "O": 5
+        }
+      },
+      {
+        "name": "Ruby Collection",
+        "level": 2,
+        "gem_type": "R",
+        "image_id": 2,
+        "points": 3,
+        "cost": {
+          "R": 6
+        }
+      },
+      {
+        "name": "Sapphire Vault",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "S": 2,
+          "E": 3,
+          "O": 3
+        }
+      },
+      {
+        "name": "Sapphire Refinery",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 3,
+        "points": 1,
+        "cost": {
+          "S": 2,
+          "E": 2,
+          "R": 3
+        }
+      },
+      {
+        "name": "Azure Refinery",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 3,
+        "points": 2,
+        "cost": {
+          "C": 5,
+          "S": 3
+        }
+      },
+      {
+        "name": "Blue Estate",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "C": 2,
+          "R": 1,
+          "O": 4
+        }
+      },
+      {
+        "name": "Sapphire Guild",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 2,
+        "points": 2,
+        "cost": {
+          "S": 5
+        }
+      },
+      {
+        "name": "Sapphire Collection",
+        "level": 2,
+        "gem_type": "S",
+        "image_id": 2,
+        "points": 3,
+        "cost": {
+          "S": 6
+        }
+      }
+    ],
+    "tier3": [
+      {
+        "name": "Grand Diamond Vault",
+        "level": 3,
+        "gem_type": "C",
+        "image_id": 5,
+        "points": 3,
+        "cost": {
+          "S": 3,
+          "E": 3,
+          "R": 5,
+          "O": 3
+        }
+      },
+      {
+        "name": "Exquisite Diamond Vault",
+        "level": 3,
+        "gem_type": "C",
+        "image_id": 4,
+        "points": 4,
+        "cost": {
+          "O": 7
+        }
+      },
+      {
+        "name": "Royal Diamond Chamber",
+        "level": 3,
+        "gem_type": "C",
+        "image_id": 4,
+        "points": 4,
+        "cost": {
+          "C": 3,
+          "R": 3,
+          "O": 6
+        }
+      },
+      {
+        "name": "Master Diamond Atelier",
+        "level": 3,
+        "gem_type": "C",
+        "image_id": 5,
+        "points": 5,
+        "cost": {
+          "C": 3,
+          "O": 7
+        }
+      },
+      {
+        "name": "Grand Emerald Vault",
+        "level": 3,
+        "gem_type": "E",
+        "image_id": 4,
+        "points": 3,
+        "cost": {
+          "C": 5,
+          "S": 3,
+          "R": 3,
+          "O": 3
+        }
+      },
+      {
+        "name": "Exquisite Emerald Vault",
+        "level": 3,
+        "gem_type": "E",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "S": 7
+        }
+      },
+      {
+        "name": "Royal Emerald Chamber",
+        "level": 3,
+        "gem_type": "E",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "C": 3,
+          "S": 6,
+          "E": 3
+        }
+      },
+      {
+        "name": "Master Emerald Atelier",
+        "level": 3,
+        "gem_type": "E",
+        "image_id": 4,
+        "points": 5,
+        "cost": {
+          "S": 7,
+          "E": 3
+        }
+      },
+      {
+        "name": "Grand Onyx Vault",
+        "level": 3,
+        "gem_type": "O",
+        "image_id": 4,
+        "points": 3,
+        "cost": {
+          "C": 3,
+          "S": 3,
+          "E": 5,
+          "R": 3
+        }
+      },
+      {
+        "name": "Exquisite Onyx Vault",
+        "level": 3,
+        "gem_type": "O",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "R": 7
+        }
+      },
+      {
+        "name": "Royal Onyx Chamber",
+        "level": 3,
+        "gem_type": "O",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "E": 3,
+          "R": 6,
+          "O": 3
+        }
+      },
+      {
+        "name": "Master Onyx Atelier",
+        "level": 3,
+        "gem_type": "O",
+        "image_id": 4,
+        "points": 5,
+        "cost": {
+          "R": 7,
+          "O": 3
+        }
+      },
+      {
+        "name": "Grand Ruby Vault",
+        "level": 3,
+        "gem_type": "R",
+        "image_id": 5,
+        "points": 3,
+        "cost": {
+          "C": 3,
+          "S": 5,
+          "E": 3,
+          "O": 3
+        }
+      },
+      {
+        "name": "Exquisite Ruby Vault",
+        "level": 3,
+        "gem_type": "R",
+        "image_id": 4,
+        "points": 4,
+        "cost": {
+          "S": 3,
+          "E": 6,
+          "R": 3
+        }
+      },
+      {
+        "name": "Royal Ruby Chamber",
+        "level": 3,
+        "gem_type": "R",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "E": 7
+        }
+      },
+      {
+        "name": "Master Ruby Atelier",
+        "level": 3,
+        "gem_type": "R",
+        "image_id": 4,
+        "points": 5,
+        "cost": {
+          "E": 7,
+          "R": 3
+        }
+      },
+      {
+        "name": "Grand Sapphire Vault",
+        "level": 3,
+        "gem_type": "S",
+        "image_id": 5,
+        "points": 3,
+        "cost": {
+          "C": 3,
+          "E": 3,
+          "R": 3,
+          "O": 5
+        }
+      },
+      {
+        "name": "Exquisite Sapphire Vault",
+        "level": 3,
+        "gem_type": "S",
+        "image_id": 4,
+        "points": 4,
+        "cost": {
+          "C": 6,
+          "S": 3,
+          "O": 3
+        }
+      },
+      {
+        "name": "Royal Sapphire Chamber",
+        "level": 3,
+        "gem_type": "S",
+        "image_id": 5,
+        "points": 4,
+        "cost": {
+          "C": 7
+        }
+      },
+      {
+        "name": "Master Sapphire Atelier",
+        "level": 3,
+        "gem_type": "S",
+        "image_id": 4,
+        "points": 5,
+        "cost": {
+          "C": 7,
+          "S": 3
+        }
+      }
+    ]
+  }
+}

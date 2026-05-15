@@ -1,0 +1,70 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'jacoco'
+    id("org.sonarqube") version "6.1.0.5360"
+
+    // https://imperceptiblethoughts.com/shadow
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group 'be.howest.ti'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    finalizedBy jacocoTestReport // report is always generated after tests run
+}
+
+jacocoTestReport {
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+
+    implementation "io.vertx:vertx-web:${vertxVersion}"
+    implementation "io.vertx:vertx-web-openapi:${vertxVersion}"
+
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+
+    implementation project(':vertx-web-bearer')
+    implementation project(':generic-game-server')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+mainClassName='io.vertx.core.Launcher'
+def mainVerticleName = 'be.howest.ti.game.StartUp'
+
+shadowJar {
+    archiveClassifier.set('fat')
+    manifest {
+        attributes 'Main-Verticle': "$mainVerticleName"
+    }
+    mergeServiceFiles {
+        include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+    }
+}
+
+run {
+    args = ['run', mainVerticleName, "--launcher-class=$mainClassName"]
+}
+
+
+

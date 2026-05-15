@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'be.howest.ti'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "io.vertx:vertx-web:${vertxVersion}"
+    // Needed to compile the missing classes.
+    implementation "io.vertx:vertx-codegen:${vertxVersion}"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
