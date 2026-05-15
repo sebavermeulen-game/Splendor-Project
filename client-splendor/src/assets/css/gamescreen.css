@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/Itim-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url("../../media/gamebackground.png");
+    background-size: 100%;
+    font-family: MyCustomFont, sans-serif;
+    color: white;
+    -webkit-text-stroke: .045rem black;
+}
+
+/* DEVELOPMENT CARDS */
+
+#cardsContainer li, #reservedCardsContainer li {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+    cursor: pointer;
+}
+
+#cardType {
+    height: auto;
+    display: block;
+    width: 7rem;
+    margin-bottom: 0;
+}
+
+#cardToken {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 0.5%;
+    right: 0.5%
+}
+#tokens ul li {
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    margin-bottom: 0.75rem;
+}
+#cardsContainer #cost li, #noblesContainer #cost li, #reservedCardsContainer #cost li {
+    -webkit-text-stroke: 0.03rem black;
+    font-size: 1.2rem;
+    color: white;
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#tokens {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: goldenrod;
+    padding: 0.5rem;
+    border: 0.3rem solid darkgoldenrod;
+    border-radius: 1rem;
+    margin-left: 70%;
+    top: 9%;
+}
+
+
+
+#tokens ul li::after {
+    content: attr(data-selection-count);
+    position: absolute;
+    top: 0.125rem;
+    right: 0.125rem;
+    background: #000000B3;
+    padding: 0.0625rem 0.25rem;
+    border-radius: 0.1875rem;
+    font-size: 0.8rem;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#tokens ul li.selected::after {
+    opacity: 1;
+}
+
+#tokens ul li.selected {
+    opacity: 0.7;
+    transform: scale(0.95);
+    box-shadow: 0 0 0.9375rem 0.625rem blueviolet;
+}
+
+.selectable-token {
+    cursor: pointer;
+}
+
+.unselectable-token {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+#cost {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    bottom: 6%;
+    left: 7.25%;
+}
+
+#cardsContainer {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 35%;
+}
+
+
+.selected {
+    box-shadow: 0 0 0.9375rem 0.625rem blueviolet;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease;
+}
+
+#market {
+    width: 100%;
+}
+
+#gameScreen {
+    position: fixed;
+    margin-left: 34.5%;
+    top: 2%;
+    width: 32.1%;
+}
+#gameScreen h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.01rem black;
+}
+#allNobles li ul li {
+    padding-right: 1rem;
+    padding-left: 0.2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure p, #cardsContainer li p, #reservedCardsContainer li p {
+    background: url("../../media/prestigestar.png") no-repeat;
+    background-size: contain;
+    font-size: 1.2rem;
+    text-align: center;
+    -webkit-text-stroke: 0.03rem black;
+    align-content: center;
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0.4%;
+    left: 0.4%;
+}
+
+#allNobles li {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+}
+#allNobles {
+    position: fixed;
+    top: 2%;
+    left: 80%;
+}
+#allNobles p {
+    background: url("../../media/prestigestar.png") no-repeat;
+    background-size: contain;
+    font-size: 1.2rem;
+    text-align: center;
+    -webkit-text-stroke: 0.03rem black;
+    align-content: center;
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0.4%;
+    left: 0.4%;
+}
+#allNobles h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.01rem black;
+}
+
+#noblesContainer {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: auto;
+}
+
+
+#allNobles li ul.cost {
+    display: flex;
+    width: 70%;
+    height: 15%;
+    position: relative;
+    bottom: 23%;
+    left: 8%;
+}
+
+
+
+
+img {
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+
+#allNobles img {
+    width: 80%;
+    height: auto;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#reservedCards {
+    position: fixed;
+    right: 1.25rem;
+    width: fit-content;
+    background-color: goldenrod;
+    border: 0.3rem solid darkgoldenrod;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+}
+
+#reservedCards h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#reservedCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+}
+
+#reservedCards figure {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+}
+
+/* GEMS */
+
+.rubycard {
+    background: url("../images/rubycard.png") no-repeat;
+    background-size: contain;
+}
+
+.emeraldcard {
+    background: url("../images/emeraldcard.png") no-repeat;
+    background-size: contain;
+}
+
+.diamantcard {
+    background: url("../images/diamantcard.png") no-repeat;
+    background-size: contain;
+}
+
+.amethystcard {
+    background: url("../images/amethystrcard.png") no-repeat;
+    background-size: contain;
+}
+
+.onyxcard {
+    background: url("../images/onyxcard.png") no-repeat;
+    background-size: contain;
+}
+
+.ambercard {
+    background: url("../images/ambercard.png") no-repeat;
+    background-size: contain;
+}
+
+/* Gems */
+
+.rubyCard {
+    background: url("../images/rubycard.png") no-repeat;
+    background-size: contain;
+}
+
+.emeraldCard {
+    background: url("../images/emeraldcard.png") no-repeat;
+    background-size: contain;
+}
+
+.diamondCard {
+    background: url("../images/diamantcard.png") no-repeat;
+    background-size: contain;
+}
+
+.amethystCard {
+    background: url("../images/amethystrcard.png") no-repeat;
+    background-size: contain;
+}
+
+.onyxCard {
+    background: url("../images/onyxcard.png") no-repeat;
+    background-size: contain;
+}
+
+.amberCard {
+    background: url("../images/ambercard.png") no-repeat;
+    background-size: contain;
+}
+
+.rubyToken {
+    background: url("../images/rubytoken.png") no-repeat;
+    background-size: contain;
+}
+
+.emeraldToken {
+    background: url("../images/emeraldtoken.png") no-repeat;
+    background-size: contain;
+}
+
+.diamondToken {
+    background: url("../images/diamanttoken.png") no-repeat;
+    background-size: contain;
+}
+
+.amethystToken {
+    background: url("../images/amethysttoken.png") no-repeat;
+    background-size: contain;
+}
+
+.onyxToken {
+    background: url("../images/onyxtoken.png") no-repeat;
+    background-size: contain;
+}
+
+.amberToken {
+    background: url("../images/ambertoken.png") no-repeat;
+    background-size: contain;
+}
+
+button {
+    background-color: #D2A741;
+    border-radius: 0.75rem;
+    color: white;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: #5a5a5a;
+}
